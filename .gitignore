@@ -4,5 +4,6 @@ db.json
 *.log
 node_modules/
 public/
+themes-pull/
 .deploy*/
 _multiconfig.yml
