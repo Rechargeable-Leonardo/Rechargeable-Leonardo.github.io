@@ -1,0 +1,23 @@
+- class_name: 友情链接
+  class_desc: 
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简洁且高效的博客框架
+
+- class_name: 关于我
+  class_desc: 
+  link_list:
+    - name: Github
+      link: https://github.com/Rechargeable-Leonardo
+      avatar: https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg
+      descr: Rechargeable-Leonardo
+    - name: Bilibili
+      link: https://space.bilibili.com/2068402
+      avatar: https://www.bilibili.com/favicon.ico
+      descr: 可充电的陈明章 / 狮鹫电力
+    - name: 纯美苹果园
+      link: https://www.goddessfantasy.net/bbs/index.php?board=2161.0
+      avatar: https://www.goddessfantasy.net/bbs/favicon.gif
+      descr: 果园同名专区(需登录)
