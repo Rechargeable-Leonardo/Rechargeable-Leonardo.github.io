@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #.github/workflows/pages.yml
+=======
+>>>>>>> origin/master
 name: Pages
 
 on:
