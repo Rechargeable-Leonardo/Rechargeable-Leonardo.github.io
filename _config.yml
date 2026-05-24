@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: "狮鹫电力"
+subtitle: "Griffin Grid GmbH"
+description: '欢迎来到狮鹫的自留地。'
 keywords:
-author: John Doe
-language: en
+author: Rechargeable Grover Leonardo
+language: zh-CN
 timezone: ''
 
 # URL
