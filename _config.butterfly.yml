@@ -22,95 +22,132 @@ nav:
   # 是否固定导航栏
   fixed: false
 
-时间轴: /timeline
+#时间轴: /timeline
 
 menu:
   首页: / || fas fa-home
-  # 列表||fas fa-list:
+#  列表||fas fa-list:
   时间轴: /archives/ || fas fa-archive
-  分类: /categories/ || fas fa-folder-open
-  标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    标签: /tags/ || fas fa-tags
   友情链接: /links/ || fas fa-link
   关于我: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
+# 代码块设置
 # --------------------------------------
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
+  # 代码块主题: darker / pale night / light / ocean / false
   theme: light
+  # 是否使用 Mac 风格
   macStyle: false
   # Code block height limit (unit: px)
+  # 代码块高度限制（单位: px）
   height_limit: false
+  # 是否自动换行
   word_wrap: false
 
   # Toolbar
+  # 工具栏
+  #是否显示复制按钮
   copy: true
+  # 是否显示语言标签
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
   shrink: false
+  # 是否显示全屏显示代码块按钮
   fullpage: false
 
 # Social media links
+# 社交媒体链接
 # Formal:
+# 格式：
 #   icon: link || the description || color
+#   icon: 链接 || 描述 || 颜色
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
+# 图片设置
 # --------------------------------------
 
+# 网站的favicon
 favicon: /img/favicon.png
 
+# 头像设置
 avatar:
+  # 头像的图片链接
   img: /img/griffin-icon.png
+  # 是否启用头像效果
   effect: false
 
 # Disable all banner images
+# 禁用所有banner图片
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
+# 默认的banner
 default_top_img: /img/default-banner.png
 
 # The banner image of index page
+# 首页的banner
 index_img:
 
 # The banner image of archive page
+# 文章页面的banner
 archive_img:
 
 # Note: tag page, not tags page
+# tag的banner(不是tag总页面的)
 tag_img:
 
 # The banner image of tag page, you can set the banner image for each tag
+# 可以给每个tag单独设置banner，上一项为未设置时的默认tag banner
 # Format:
+# 格式: 
 #  - tag name: xxxxx
+#  - 标签名: xxxxx
 tag_per_img:
 
 # Note: category page, not categories page
+# 同tag_img，只不过是分类
 category_img:
 
 # The banner image of category page, you can set the banner image for each category
+# 同tag_per_img，只不过是分类
 # Format:
 #  - category name: xxxxx
 category_per_img:
 
 # The background image of footer
+# 页脚图片
 footer_img: false
 
 # Website Background
+# 网站的背景图
 # Can set it to color, image URL or an array containing colors and/or image URLs
+# 可以设置为颜色、图片链接或者用数组配置颜色和/或图片
 # If an array is provided, a random background will be selected from the array on each load
+# 数组的好处是，每次都会随机显示其中一项
 background:
 
 cover:
   # Disable the cover or not
+  # 是否禁用封面
   index_enable: true
   aside_enable: true
   archives_enable: true
+  # 主页封面的位置
+  # 选择: left/right/both
+  # position: both
   # When cover is not set, the default cover is displayed
+  # 当未设置封面时，显示默认封面
   default_cover:
     # - xxx.jpg
 
