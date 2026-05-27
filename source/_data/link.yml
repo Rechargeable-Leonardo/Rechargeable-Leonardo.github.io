@@ -23,11 +23,11 @@
       descr: 31号文件夹
     - name: Ravonix
       link: https://pigeonlx.top/
-      avatar: https://pigeonlx.top/assets/favicon-uAizzPao.ico
+      avatar: /img/favicon-uAizzPao.png
       descr: Digital Nomad & Student
     - name: wumballbattle
       link: https://1114673990.github.io/wumballbattle/
-      avatar: https://pigeonlx.top/assets/favicon-uAizzPao.ico
+      avatar: /img/wum.png
       descr: BALL ARENA
 
 - class_name: 一些快捷链接
@@ -40,4 +40,4 @@
     - name: Butterfly
       link: https://butterfly.js.org/
       avatar: /img/favicon.ico
-      descr: A Hexo theme: Butterfly
+      descr: A Hexo theme - Butterfly
