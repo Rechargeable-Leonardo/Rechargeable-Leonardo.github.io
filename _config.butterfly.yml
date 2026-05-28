@@ -822,7 +822,7 @@ site_verification:
 #   meta_theme_color_dark: "#0d0d0d"
 theme_color:
   enable: true
-  main: "#0d0d0d"
+  main: "#0b3b50"
   paginator: "#FF6B35"
   button_hover: "#F7B731"
   text_selection: "#CD853F"
@@ -835,8 +835,8 @@ theme_color:
   blockquote_padding_color: "#9B59B6"
   blockquote_background_color: "#9B59B6"
   scrollbar_color: "#29ABE2"
-  meta_theme_color_light: "ffffff"
-  meta_theme_color_dark: "#0d0d0d"
+  meta_theme_color_light: "f8fcfe"
+  meta_theme_color_dark: "#0b3b50"
 
 # The user interface setting of category and tag page
 # Choose: index - same as Homepage UI / default - same as archives UI
