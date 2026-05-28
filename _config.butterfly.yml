@@ -306,7 +306,7 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2026
   # Copyright of theme and framework
   copyright:
     enable: true
@@ -822,7 +822,7 @@ site_verification:
 #   meta_theme_color_dark: "#0d0d0d"
 theme_color:
   enable: true
-  main: "#29ABE2"
+  main: "#0d0d0d"
   paginator: "#FF6B35"
   button_hover: "#F7B731"
   text_selection: "#CD853F"
