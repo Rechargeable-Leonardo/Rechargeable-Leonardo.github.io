@@ -23,7 +23,7 @@
       descr: 31号文件夹
     - name: Ravonix
       link: https://pigeonlx.top/
-      avatar: /img/favicon-uAizzPao.png
+      avatar: https://s2.loli.net/2025/11/21/16il4e2CVWrwKXa.png
       descr: Digital Nomad & Student
     - name: wumballbattle
       link: https://1114673990.github.io/wumballbattle/
@@ -39,5 +39,5 @@
       descr: 快速、简洁且高效的博客框架
     - name: Butterfly
       link: https://butterfly.js.org/
-      avatar: /img/favicon.ico
+      avatar: https://butterfly.js.org/img/butterfly-icon.png
       descr: A Hexo theme - Butterfly
