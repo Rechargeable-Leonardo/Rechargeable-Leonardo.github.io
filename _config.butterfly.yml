@@ -30,7 +30,7 @@ menu:
     时间轴: /archives/ || fas fa-list
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
-  说说: /lil-post/ || fas fa-tencent-weibo
+  说说: /lil-post/ || fas fa-microphone
   友情链接: /links/ || fas fa-link
   关于我: /about/ || fas fa-heart
 
