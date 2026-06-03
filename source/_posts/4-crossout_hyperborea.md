@@ -4,7 +4,7 @@ date: 2026-05-30 22:00:00
 tags: [创世战车]
 categories: 
     - [创世战车]
-cover: /img/crossout_hyperborea_mentor.jpg
+cover: /img/crossout_hyperborea/mentor.jpg
 ---
 
 >*本文原于2023-11-28发布在《创世战车》官网，此处为重发。*
@@ -21,7 +21,7 @@ cover: /img/crossout_hyperborea_mentor.jpg
 
 通过导师所拥有的来自"风雪之外的世界"的知识，他迅速的在这个社区中取得了属于自己的一席之地，而现在他带着一整支探险队回到了谷地。"许珀尔玻瑞亚人"——幸存者们如此称呼他们，由新晋升的巫师(Noida)的强大个人魅力和对于永久离开冻土的渴望所驱动，他们乐于追随导师。
 
-![从北境归来的导师](/img/crossout_hyperborea_mentor.jpg "从北境归来的导师")
+![从北境归来的导师](/img/crossout_hyperborea/mentor.jpg "从北境归来的导师")
 
 ## 北方的狮子
 
