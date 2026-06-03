@@ -5,6 +5,7 @@ tags: [随笔,站点相关]
 categories: 
     - [随笔,站点相关]
 cover: /img/StS2_Defect-HelloWorld-Art.png
+description: Hello world! 
 ---
 ![Hello world!](/img/360px-Hello_world.webp "Hello world!")
 

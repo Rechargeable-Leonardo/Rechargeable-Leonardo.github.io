@@ -5,6 +5,7 @@ tags: [创世战车]
 categories: 
     - [创世战车]
 cover: /img/crossout_xmas/cover.jpg
+description: 简单来讲，《创世战车》中圣诞的名称为"风雪节"。
 ---
 
 >*本文原于2023-12-28发布在《创世战车》官网，此处为重发。*

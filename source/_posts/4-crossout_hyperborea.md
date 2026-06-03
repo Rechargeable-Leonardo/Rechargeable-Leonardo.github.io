@@ -5,6 +5,7 @@ tags: [创世战车]
 categories: 
     - [创世战车]
 cover: /img/crossout_hyperborea/mentor.jpg
+description: 《创世战车》游戏内阵营"酷寒北境"(Hyperborea)介绍。
 ---
 
 >*本文原于2023-11-28发布在《创世战车》官网，此处为重发。*

@@ -5,6 +5,7 @@ tags: [创世战车]
 categories: 
     - [创世战车]
 cover: /img/crossout_shelter/1.png
+description: 本文原于2023-11-23发布在《创世战车》官网，此处为重发。
 ---
 
 >*本文原于2023-11-23发布在《创世战车》官网，此处为重发。*

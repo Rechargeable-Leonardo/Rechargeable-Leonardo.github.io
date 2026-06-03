@@ -5,6 +5,7 @@ tags: [创世战车]
 categories: 
     - [创世战车]
 cover: /img/crossout_factionwar_cover.jpg
+description: 《创世战车》活动"阵营战争"终局剧情。
 ---
 
 >*本文原于2023-11-28发布在《创世战车》官网，此处为重发。*

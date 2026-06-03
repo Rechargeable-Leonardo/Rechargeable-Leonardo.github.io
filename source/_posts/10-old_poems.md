@@ -4,6 +4,7 @@ date: 2026-05-31 15:35:00
 tags: [随笔,旧文]
 categories: [随笔,旧文]
 cover: /img/zhujian.jpg
+description: 过往超过十年里写的几首旧诗，当时其实有一整本"拔剑而歌"的。
 ---
 
 ## 其一 《今天太冷冷得我神志不清！！！！！》
