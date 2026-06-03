@@ -197,7 +197,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -213,6 +213,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - G.G.G.(Griffin Grid GmbH)
+    - Griffin Industries Pancosmical, based in Sigil.
+    - 
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
