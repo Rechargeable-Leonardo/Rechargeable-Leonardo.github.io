@@ -13,10 +13,10 @@
       link: https://www.goddessfantasy.net/bbs/index.php?board=2161.0
       avatar: https://www.goddessfantasy.net/bbs/favicon.gif
       descr: 果园同名专区(需登录)
-    - name: 3版大不全
+    - name: 3版大不全(自部署版本)
       link: /3rchmweb/
       avatar: https://www.dungeonsanddragons.com/assets/favicons/apple-icon-152x152.png
-      descr: 龙与地下城3版扩展规则大全(大不全)(自部署)
+      descr: 龙与地下城3版扩展规则大全
 
 - class_name: 动物朋友们
   class_desc: 
