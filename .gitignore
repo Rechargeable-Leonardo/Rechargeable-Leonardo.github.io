@@ -7,3 +7,4 @@ public/
 themes-pull/
 .deploy*/
 _multiconfig.yml
+.vscode/
