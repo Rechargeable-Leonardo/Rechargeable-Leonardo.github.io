@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "3r.griffin-grid.gmbh" }],
+      "destination": "/3rchmweb/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "3rchm.griffin-grid.gmbh" }],
+      "destination": "/3rchmweb/$1"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "3rchmweb.griffin-grid.gmbh" }],
+      "destination": "/3rchmweb/$1"
+    }
+  ]
+}
