@@ -66,6 +66,10 @@
 [data-theme="dark"] .wikitable th {
   background-color: #2a2a3e;
   border-color: #555;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .wikitable caption {
   color: #1a1a1a;
 }
 
