@@ -1122,13 +1122,25 @@ structured_data:
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
 
+# hexo-butterfly-tag-plugins-plus
+# https://github.com/Akilarlxh/hexo-butterfly-tag-plugins-plus
+tag_plugins:
+  enable: true
+  priority: 5
+  issues: false
+  CDN:
+    anima: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@1.0.18/lib/assets/font-awesome-animation.min.css
+    tag_plugins_css: https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@1.0.18/lib/tag_plugins.css
+
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - '<link rel="stylesheet" href="/css/wikitable.css">'
   bottom:
-    # - <script src="xxxx"></script>
+    - '<script src="/js/sorttable.js"></script>'
+    # 若不想本地托管 sorttable.js，可改用 CDN：
+    # - '<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>'
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work

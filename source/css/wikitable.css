@@ -1,0 +1,199 @@
+/* =========================================================
+   MediaWiki 风格排版：wikitable / infobox / hatnote
+   方案来源：hexo-wiki-排版方案.md
+   通过 _config.butterfly.yml 的 inject.head 全局注入
+   ========================================================= */
+
+/* ===== MediaWiki 风格 wikitable ===== */
+.wikitable {
+  background-color: #f8f9fa;
+  color: #202122;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+}
+
+.wikitable table {
+  width: 100%;
+  margin: 0;
+}
+
+.wikitable th {
+  background-color: #eaecf0;
+  border: 1px solid #a2a9b1;
+  padding: 0.4em 0.6em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wikitable td {
+  border: 1px solid #a2a9b1;
+  padding: 0.3em 0.6em;
+}
+
+/* 奇偶行交替色 */
+.wikitable tr:nth-child(even) td {
+  background-color: #f8f9fa;
+}
+
+.wikitable tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+/* 仍然让表头覆盖掉奇偶行规则 */
+.wikitable thead th {
+  background-color: #eaecf0;
+}
+
+/* 带标题的 wikitable */
+.wikitable caption {
+  font-weight: bold;
+  padding: 0.4em;
+  caption-side: top;
+  text-align: left;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-bottom: none;
+}
+
+/* 深色模式适配 */
+[data-theme="dark"] .wikitable {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+[data-theme="dark"] .wikitable th {
+  background-color: #2a2a3e;
+  border-color: #555;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .wikitable td {
+  border-color: #444;
+}
+
+[data-theme="dark"] .wikitable tr:nth-child(even) td {
+  background-color: #1e1e32;
+}
+
+[data-theme="dark"] .wikitable tr:nth-child(odd) td {
+  background-color: #1a1a2e;
+}
+
+/* ===== wikitable sortable（可排序表格） ===== */
+/* 排序表头样式 */
+.wikitable.sortable th {
+  cursor: pointer;
+  user-select: none;
+}
+
+.wikitable.sortable th:hover {
+  background-color: #d4d8dd;
+}
+
+[data-theme="dark"] .wikitable.sortable th:hover {
+  background-color: #3a3a4e;
+}
+
+/* sorttable 默认排序指示器 */
+.wikitable.sortable th.sorttable_sorted::after {
+  content: " ▾";
+  font-size: 80%;
+}
+
+.wikitable.sortable th.sorttable_sorted_reverse::after {
+  content: " ▴";
+  font-size: 80%;
+}
+
+/* ===== MediaWiki 风格 infobox ===== */
+.infobox {
+  float: right;
+  width: 270px;
+  max-width: 40%;
+  margin: 0 0 1.2em 1.5em;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  font-size: 88%;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+}
+
+.infobox caption {
+  font-size: 125%;
+  font-weight: bold;
+  padding: 0.4em 0.5em;
+  text-align: center;
+}
+
+.infobox th {
+  background-color: #eaecf0;
+  text-align: left;
+  padding: 0.2em 0.5em;
+  width: 35%;
+  white-space: nowrap;
+}
+
+.infobox td {
+  border-top: 1px solid #a2a9b1;
+  padding: 0.2em 0.5em;
+}
+
+.infobox th,
+.infobox td {
+  border: 1px solid #a2a9b1;
+  vertical-align: top;
+}
+
+/* 深色模式 */
+[data-theme="dark"] .infobox {
+  background-color: #1a1a2e;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .infobox th {
+  background-color: #2a2a3e;
+  border-color: #555;
+}
+
+[data-theme="dark"] .infobox td {
+  border-color: #444;
+}
+
+/* 移动端适配（小屏时取消浮动，撑满宽度） */
+@media screen and (max-width: 640px) {
+  .infobox {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1em 0;
+  }
+}
+
+/* ===== MediaWiki 风格 hatnote ===== */
+.hatnote {
+  font-style: italic;
+  font-size: 90%;
+  color: #54595d;
+  padding: 0.4em 0 0.4em 1.6em;
+  margin: 0.5em 0;
+  border-left: 3px solid #a2a9b1;
+  background-color: #f8f9fa;
+  border-radius: 0 4px 4px 0;
+}
+
+.hatnote a {
+  color: #0645ad;
+}
+
+[data-theme="dark"] .hatnote {
+  color: #a2a9b1;
+  border-left-color: #555;
+  background-color: #1e1e32;
+}
+
+[data-theme="dark"] .hatnote a {
+  color: #6db3f2;
+}
