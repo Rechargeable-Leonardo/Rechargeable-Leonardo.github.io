@@ -802,7 +802,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!$table.length) return
 
     $table.forEach(item => {
-      if (!item.closest('.highlight')) {
+      if (!item.closest('.highlight') && !item.classList.contains('infobox')) {
         btf.wrap(item, 'div', { class: 'table-wrap' })
       }
     })
