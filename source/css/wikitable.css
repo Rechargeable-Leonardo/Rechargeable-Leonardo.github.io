@@ -6,6 +6,7 @@
 
 /* ===== MediaWiki 风格 wikitable ===== */
 .wikitable {
+  clear: both;
   background-color: #f8f9fa;
   color: #202122;
   margin: 1em 0;
